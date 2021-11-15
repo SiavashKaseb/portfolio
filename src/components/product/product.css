@@ -1,0 +1,34 @@
+.list{
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border:  2px solid rgb(109, 109, 109);
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+
+.prdocut-br{
+    height: 20px;
+    background-color: #bebab8;
+    display: flex;
+    align-items: center;
+    position: static;
+    z-index: 2;
+}
+
+.product-circle{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: whitesmoke;
+}
+
+.product-image{
+    width: 100%;
+    transition: all 10s ease;
+}
+
+.list:hover .product-image {
+    transform: translateY(-100%);
+}

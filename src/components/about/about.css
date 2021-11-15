@@ -1,0 +1,42 @@
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.about-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-right{
+    flex: 1;
+}
+
+.a-card{
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+
+}
+
+.a-img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 5vh;
+    border-radius: 60px;
+}
+
+.about-title{
+    font-size: 60px;
+    font-weight: 400;
+    color: #e05626;
+}
+
+.about-sub{
+    margin: 20px 0;
+}

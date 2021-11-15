@@ -1,0 +1,115 @@
+.intro{
+    display: flex;
+    height: 100vh;
+}
+
+.intro-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-right{
+    flex: 1;
+}
+
+/* .btn{
+    border-radius: 50%;
+    position: fixed;
+    top: 92vh;
+    left: 95%;
+    width: 50px;
+    height: 50px;
+    animation: rotate 4s infinite;
+    border: none;
+
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+
+.sideColor{
+    color: whitesmoke;
+    position: absolute;
+    width: 30%;
+    height: 100vh;
+    background: black;
+    z-index: 2 ;
+    
+    left: -100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.intro-left-wrapper{
+    padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro-title{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.intro-name{
+    font-size: 60px;
+}
+
+.intro-jobTitle{
+    height: 50px;
+    overflow: hidden;
+}
+
+.intro-jobTitle-wrapper{
+    height: 100%;
+}
+
+.intro-jobTitle-item{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #e05626;
+    display: flex;
+    align-items: center;
+}
+
+.intro-desc{
+    font-size: 20px;
+}
+
+.introImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.scrollDown{
+    position: absolute;
+    bottom: 20px;
+    width: 30px;
+    height: 30px;
+    animation: move 2.5s infinite;
+}
+
+@keyframes move {
+    50%{
+        margin-bottom: 20px;
+    }
+    100%{
+        margin-bottom: 0px;
+    }
+}
