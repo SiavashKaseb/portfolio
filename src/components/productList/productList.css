@@ -26,3 +26,16 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 480px) {
+    .productList{
+        padding: 10px;
+    }
+    .productList-text{
+        width: 100%;
+    }
+    .productList-desc{
+        display: none;
+    }
+    
+}

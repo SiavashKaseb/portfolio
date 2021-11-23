@@ -49,8 +49,7 @@ const Contact = () => {
                 </div>
                 <div className="contact-right">
                     <p className="info-desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quidem id quibusdam nostrum, autem reiciendis?
-                    </p>
+                    You can contact me, relax yourself and send a message, I will be happy to talk to you                    </p>
                     <form ref={fRef} onSubmit={submitForm} >
                         <input type="text" placeholder="Name" name="user_name" />
                         <input type="text" placeholder="Subject" name="user_subject" />

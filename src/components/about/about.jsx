@@ -13,8 +13,11 @@ const About = (props) => {
             </div>
             <div className="about-right">
                 <h1 id={props.id} className="about-title">About Me</h1>
-                <p className="about-sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, dolor.</p>
-                <p className="about-desk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, eligendi.</p>
+                <p className="about-sub">I am Siavash from Iran
+                    A web developer who may sit for hours on a line but never get bored
+                    Look for challenges, new things, more design or even new games :)
+                    I am very happy because I am more and more interested in my work day by day and I accept all its difficulties and continue
+                </p>
             </div>
 
         </div>

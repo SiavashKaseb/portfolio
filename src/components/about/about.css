@@ -39,6 +39,8 @@
 
 .about-sub{
     margin: 20px 0;
+    width: 85%;
+    font-size: 20px;
 }
 
 
@@ -53,5 +55,11 @@
     }
     .a-card{
         height: 74vh;
+        width: 50%;
     }
+
+    .about-right{
+        padding: 20px;
+    }
+    
 }
