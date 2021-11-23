@@ -95,3 +95,9 @@ textarea{
 input:focus , textarea:focus {
     outline: none;
 }
+
+@media screen and (max-width: 480px) {
+    .contact-wrapper{
+        flex-direction: column;
+    }
+}
