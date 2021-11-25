@@ -50,16 +50,26 @@
         text-align: center;
         margin-top: 50px;
     }
-    .about-left{
-        width: 100px;
+    .about-left .a-img{
+        display: flex;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .a-img{
+        margin-right: 42px;
+        justify-content: center;
+        align-items: center;
     }
     .a-card{
         height: 74vh;
         width: 50%;
     }
 
-    .about-right{
+    .about-right .about-sub{
         padding: 20px;
+        justify-content: center;
+        align-items: center;
     }
-    
 }

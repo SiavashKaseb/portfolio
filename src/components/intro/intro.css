@@ -130,4 +130,8 @@
     .intro-desc{
         display: none;
     }
+
+    .scrollDown{
+        display: none;
+    }
 }
