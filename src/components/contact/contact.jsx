@@ -31,7 +31,7 @@ const Contact = () => {
                     <div className="contact-info">
                         <div className="contact-info-item">
                             <img className="info-icon" src={GithubImg} alt="github" />
-                            <a className="link-info" target="_blank" href="https://github.com/mohammadMahdiKaseb" rel="noreferrer">Siavash Kaseb</a>
+                            <a className="link-info" target="_blank" href="https://github.com/mohammadMahdiKaseb" rel="noreferrer">Mohammad Mahdi Kaseb</a>
                         </div>
                         <div className="contact-info-item">
                             <img className="info-icon" src={GmailImg} alt="Gmail" />

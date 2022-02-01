@@ -32,7 +32,7 @@ const Intro = () => {
         <div className="intro-left">
           <div className="intro-left-wrapper">
             <h2 className="intro-title">Hello, My name is</h2>
-            <h2 id="hel" className="intro-name">Siavash Kaseb</h2>
+            <h2 id="hel" className="intro-name">Mohammad Mahdi Kaseb</h2>
             <div className="intro-jobTitle">
               <div className="intro-jobTitle-wrapper">
                 <div id="testBezan" className="intro-jobTitle-item">

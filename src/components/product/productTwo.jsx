@@ -1,8 +1,10 @@
 import React from "react"
 import "./product.css"
 import { data } from "../../data"
-import list from "../../img/banner1.png"
-const Product = (props) => {
+import list from "../../img/banner2.png"
+
+console.log(data[1].img);
+const ProductTwo = (props) => {
     return (
         <div className="list">
             <div className="prdocut-br">
@@ -14,9 +16,10 @@ const Product = (props) => {
                 <img src={list} alt="" className="product-image" />
             </a>
             
+            
         </div>
         
     )
 }
 
-export default Product
+export default ProductTwo

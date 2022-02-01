@@ -65,7 +65,7 @@
 }
 
 .intro-name{
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .intro-jobTitle{
@@ -118,6 +118,10 @@
 @media screen and (max-width: 480px) {
     .intro{
         flex-direction: column;
+    }
+    .intro-name{
+        font-size: 40px;
+        margin: 10px;
     }
     .intro-left-wrapper{
         padding: 10px;
