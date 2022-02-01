@@ -6,6 +6,6 @@ This site is written locally but is online with netlify.
 
 You can see it from the following link:
 
-- [Netlify](https://indoor-sports-web.herokuapp.com/)
+- [Netlify](https://mohammadmahdikaseb.netlify.app)
   
 #### **I hope you enjoyed it** ####
